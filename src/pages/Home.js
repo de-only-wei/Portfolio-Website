@@ -27,7 +27,7 @@ export default function Home() {
 
 			{/* HEADER */}
 			<h1 id="home">
-				Hello, I'm <span className="text-primary">Not John</span>
+				Hello, I'm <span className="text-primary">title</span>
 			</h1>
 
 			{/* DESCRIPTION */}
