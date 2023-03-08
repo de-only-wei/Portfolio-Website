@@ -27,19 +27,13 @@ export default function Home() {
 
 			{/* HEADER */}
 			<h1 id="home">
-				Hello, I'm <span className="text-primary">title</span>
+				Hello, I'm <span className="text-primary">Zheng Wei</span>
 			</h1>
 
 			{/* DESCRIPTION */}
 			<p>
-				Hello! My name is John Doe. I am a student at CSU Fresno interested in
-				x,y,z. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-				eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-				minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-				ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-				voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-				sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-				mollit anim id est laborum.
+				Hello! My name is Zheng Wei. I am a Computer Science student at CSU Fresno interested in
+				Android Development, Cloud, Machine Learning.
 			</p>
 			<div className="divider"></div>
 
@@ -67,11 +61,13 @@ export default function Home() {
 			{/* SKILLS */}
 			<div className="flex flex-col">
 				<h2 id="skills" className="!mb-0">
-					Projects & Skills
+					Skills and Technologies
 				</h2>
 				<RelevantSkills>
-					<Skill title="React & Web :)" desc="This site was made with React." />
-					<Skill title="C++" desc="For every CSU Fresno CSCI Major :)" />
+					<Skill title="React & Web :)" 
+						desc="This site was made with React." />
+					<Skill title="C++" 
+						desc="For every CSU Fresno CSCI Major :)" />
 					<Skill title="Tailwind CSS" />
 					<Skill title="This checkmark is hidden" hideCheckmark={true} />
 				</RelevantSkills>
@@ -94,7 +90,7 @@ export default function Home() {
 				</p>
 				<div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
 					<a
-						href="mailto:johndoe@gmail.com"
+						href="mailto:zhengwei.dev@gmail.com"
 						className="btn btn-primary"
 						target="_blank"
 					>
@@ -110,6 +106,19 @@ export default function Home() {
 					</a>
 				</div>
 			</div>
+
+		<div className="mockup-code">
+			<pre data-prefix="1"><code>$ install Zheng_Wei.info</code></pre> 
+			<pre data-prefix="2"><code>installing...</code></pre> 
+			<pre data-prefix="3" className="bg-success text-success-content"><code>Success!</code></pre>
+			<pre data-prefix="3"><code>view resume: </code><a
+						href="https://www.myperfectresume.com/wp-content/uploads/2020/08/Bartender_Modern_Chrono.png"
+						//className="btn btn-primary"
+						//target="_blank"
+						>
+						Resume
+			</a></pre>
+		</div>
 		</Typography>
 	);
 }

@@ -5,7 +5,7 @@ import { routes } from "./routes";
 // app config
 
 export const config = {
-	title: "John Doe",
+	title: "Zheng Wei",
 	home: routes.home,
 	pages: [routes.projects],
 	themes: [
