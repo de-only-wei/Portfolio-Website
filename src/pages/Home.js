@@ -80,7 +80,7 @@ export default function Home() {
 			</div>
 
 			{/* CONTACT INFORMATION */}
-			<div className="bg-base-200 shadow-xl px-8 py-8 rounded-lg mt-10">
+			{/* <div className="bg-base-200 shadow-xl px-8 py-8 rounded-lg mt-10">
 				<h2 id="contact" className="!mt-3">
 					Contact Information
 				</h2>
@@ -105,18 +105,26 @@ export default function Home() {
 						Resume
 					</a>
 				</div>
-			</div>
+			</div> */}
 
 		<div className="mockup-code">
-			<pre data-prefix="1"><code>$ install Zheng_Wei.info</code></pre> 
+			<pre><code>Thank You For Viewing My Page</code></pre> 
+			<pre data-prefix="1"><code>$ install ZhengWei.contacts</code></pre> 
 			<pre data-prefix="2"><code>installing...</code></pre> 
 			<pre data-prefix="3" className="bg-success text-success-content"><code>Success!</code></pre>
-			<pre data-prefix="3"><code>view resume: </code><a
+			<pre data-prefix="4"><code>view resume: </code><a
 						href="https://www.myperfectresume.com/wp-content/uploads/2020/08/Bartender_Modern_Chrono.png"
 						//className="btn btn-primary"
 						//target="_blank"
 						>
 						Resume
+			</a></pre>
+			<pre data-prefix="5"><code>Mail to: </code><a
+						href="mailto:zhengwei.dev@gmail.com"
+						//className="btn btn-primary"
+						//target="_blank"
+						>
+						zhengwei.dev@gmail.com
 			</a></pre>
 		</div>
 		</Typography>
