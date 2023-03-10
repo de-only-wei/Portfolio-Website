@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectCard from "../components/ProjectCard";
-import Typography from "../components/Typography";
+import Typography, {Typography1} from "../components/Typography";
 
 // This is a very bare/bland template.
 // For themes specific to you and your personality visit:
@@ -9,7 +9,7 @@ import Typography from "../components/Typography";
 // @TODO: If you'd like, a good potential addition to this template is a "projects" section :) It wouldn't be too hard to implement through DaisyUI
 export default function Projects() {
 	return (
-		<Typography>
+		<Typography1>
 			<div className="fixer w-[100vw]"></div>
 			<div>
 				<div className="p-5 mx-auto">
@@ -20,7 +20,7 @@ export default function Projects() {
 							dateMonth="June"
 							dateYear="2023"
 							label="Python"
-							projectLink="https://google.com"
+							projectLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 						/>
 
 						<ProjectCard
@@ -28,7 +28,7 @@ export default function Projects() {
 							dateMonth="June"
 							dateYear="2023"
 							label="Java"
-							projectLink="https://google.com"
+							projectLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 						/>
 
 						<ProjectCard
@@ -36,12 +36,12 @@ export default function Projects() {
 							dateMonth="June"
 							dateYear="2023"
 							label="Web"
-							projectLink="https://google.com"
+							projectLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 							imgLink="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.epminc.com%2Fwp-content%2Fuploads%2F2019%2F12%2FArchive-Processor.png&f=1&nofb=1&ipt=6dfbe3f049cacf2c5d4d6570820881306ca3a66c0c6e08093ca9521024764f19&ipo=images"
 						/>
 					</div>
 				</div>
 			</div>
-		</Typography>
+		</Typography1>
 	);
 }

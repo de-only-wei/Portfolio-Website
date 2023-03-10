@@ -13,14 +13,15 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
 	return (
-		<Typography>
-			{/* AVATAR (delete as needed) */}
-			<div className="avatar my-5">
+	<>
+	<Typography>
+	{/* AVATAR (delete as needed) */}
+	<div className="avatar my-5">
 				<div className="w-48 h-full rounded-full">
 					<img
 						className="!m-0"
 						src="https://media.licdn.com/dms/image/C5603AQGRi9zHYPNKKQ/profile-displayphoto-shrink_400_400/0/1661584840169?e=1683763200&v=beta&t=Y37OWLgx7_Evg7vGha3vD-TuomHpYfuRMtpz6OqTnVE"
-					/>
+						/>
 				</div>
 			</div>
 			{/* END OF AVATAR */}
@@ -44,19 +45,19 @@ export default function Home() {
 					title="Cashier @ FoodMaxx"
 					date="Dec 2022 - Present"
 					desc="Stock food and handle cash."
-				/>
+					/>
 
 				<TimelineItem
 					title="Cashier @ FoodMaxx"
 					date="Dec 2022 - Present"
 					desc="Stock food and handle cash."
-				/>
+					/>
 
 				<TimelineItem
 					title="Cashier @ FoodMaxx"
 					date="Dec 2022 - Present"
 					desc="Stock food and handle cash."
-				/>
+					/>
 			</Timeline>
 			{/* SKILLS */}
 			<div className="flex flex-col">
@@ -82,32 +83,32 @@ export default function Home() {
 			{/* CONTACT INFORMATION */}
 			{/* <div className="bg-base-200 shadow-xl px-8 py-8 rounded-lg mt-10">
 				<h2 id="contact" className="!mt-3">
-					Contact Information
+				Contact Information
 				</h2>
 				<p>
-					Thank you for viewing my page. To get in touch with me, please see the
-					following!
+				Thank you for viewing my page. To get in touch with me, please see the
+				following!
 				</p>
 				<div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-					<a
-						href="mailto:zhengwei.dev@gmail.com"
-						className="btn btn-primary"
-						target="_blank"
-					>
-						Email
-					</a>
-
-					<a
-						href="https://www.myperfectresume.com/wp-content/uploads/2020/08/Bartender_Modern_Chrono.png"
-						className="btn btn-primary"
-						target="_blank"
-					>
-						Resume
-					</a>
+				<a
+				href="mailto:zhengwei.dev@gmail.com"
+				className="btn btn-primary"
+				target="_blank"
+				>
+				Email
+				</a>
+				
+				<a
+				href="https://www.myperfectresume.com/wp-content/uploads/2020/08/Bartender_Modern_Chrono.png"
+				className="btn btn-primary"
+				target="_blank"
+				>
+				Resume
+				</a>
 				</div>
 			</div> */}
 
-		<div className="mockup-code">
+		<div className="mockup-code w-1 h-1">
 			<pre><code>Thank You For Viewing My Page</code></pre> 
 			<pre data-prefix="1"><code>$ install ZhengWei.contacts</code></pre> 
 			<pre data-prefix="2"><code>installing...</code></pre> 
@@ -123,10 +124,11 @@ export default function Home() {
 						href="mailto:zhengwei.dev@gmail.com"
 						//className="btn btn-primary"
 						//target="_blank"
-						>
+						> <></>
 						zhengwei.dev@gmail.com
 			</a></pre>
 		</div>
 		</Typography>
+		</>
 	);
 }

@@ -64,3 +64,16 @@ html,
 body {
 	scroll-behavior: smooth !important;
 }
+
+.prose
+{
+	max-width: 77ch !important;
+}
+
+.prose.wideBoy{
+	max-width: 100vw !important;
+}
+
+.prose.longBoi{
+	max-height: 1000vh !important;
+}
