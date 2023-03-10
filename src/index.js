@@ -14,6 +14,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 	<Router>
 		<Helmet>
+			<icon>favicon</icon>
 			<title>My portfolio</title>
 			<meta name="description" content="Hello I am a... and I.." />
 		</Helmet>

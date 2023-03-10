@@ -2,7 +2,7 @@ import React from "react";
 import RelevantSkills from "../components/RelevantSkills";
 import Timeline from "../components/Timeline";
 import TimelineItem from "../components/TimelineItem";
-import Typography from "../components/Typography";
+import Default, { Stretched } from "../components/Typography";
 import Skill from "../components/Skill";
 import { Button } from "react-daisyui";
 import { Link } from "react-router-dom";
@@ -14,7 +14,7 @@ import { Link } from "react-router-dom";
 export default function Home() {
 	return (
 	<>
-	<Typography>
+	<Default>
 	{/* AVATAR (delete as needed) */}
 	<div className="avatar my-5">
 				<div className="w-48 h-full rounded-full">
@@ -108,7 +108,9 @@ export default function Home() {
 				</div>
 			</div> */}
 
-		<div className="mockup-code w-1 h-1">
+		
+		<Stretched>
+			<div className="mockup-code">
 			<pre><code>Thank You For Viewing My Page</code></pre> 
 			<pre data-prefix="1"><code>$ install ZhengWei.contacts</code></pre> 
 			<pre data-prefix="2"><code>installing...</code></pre> 
@@ -128,7 +130,8 @@ export default function Home() {
 						zhengwei.dev@gmail.com
 			</a></pre>
 		</div>
-		</Typography>
+		</Stretched>
+		</Default>
 		</>
 	);
 }

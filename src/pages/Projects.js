@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectCard from "../components/ProjectCard";
-import Typography, {Typography1} from "../components/Typography";
+import Default, {Stretched} from "../components/Typography";
 
 // This is a very bare/bland template.
 // For themes specific to you and your personality visit:
@@ -9,7 +9,7 @@ import Typography, {Typography1} from "../components/Typography";
 // @TODO: If you'd like, a good potential addition to this template is a "projects" section :) It wouldn't be too hard to implement through DaisyUI
 export default function Projects() {
 	return (
-		<Typography1>
+		<Stretched>
 			<div className="fixer w-[100vw]"></div>
 			<div>
 				<div className="p-5 mx-auto">
@@ -42,6 +42,6 @@ export default function Projects() {
 					</div>
 				</div>
 			</div>
-		</Typography1>
+		</Stretched>
 	);
 }
